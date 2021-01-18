@@ -1,0 +1,25 @@
+{
+    "name": "pretzelhands/chat-bot",
+    "description": "Demonstration of a basic Telegram chat bot",
+    "type": "chatbot",
+    "authors": [
+        {
+            "name": "Richard Blechinger",
+            "email": "hello@pretzelhands.com"
+        }
+    ],
+    "scripts": {
+        "dev": "php -S localhost:8080 -t public &>/dev/null & expose share localhost:8080"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pretzel\\": "src/"
+        },
+        "files": [ "helpers.php" ]
+    },
+    "require": {
+        "php": "^7.2",
+        "irazasyed/telegram-bot-sdk": "^3.4",
+        "vlucas/phpdotenv": "^5.2"
+    }
+}

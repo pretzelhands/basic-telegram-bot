@@ -1,0 +1,4 @@
+.env.example
+composer.phar
+/vendor/
+/.idea/
