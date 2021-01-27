@@ -1,15 +1,15 @@
-# Telegram Base Bot in PHP
+<h1 align="center">🤖 Telegram Base Bot in PHP</h1>
 
 This bot demonstrates how to implement a basic Telegram chat bot in PHP, as [described in this article](https://pretzelhands.com/posts/build-a-telegram-bot-in-php).
 
-## Requirements
+## 📦 Requirements
 
 To fully take advantage of this repository, the following dependencies should be met
 
 * PHP 7.2+
 * Installed [`beyondcode/expose`](https://github.com/beyondcode/expose)
 
-## Getting started
+## 👩‍💻 Getting started
 
 To get started, adjust `composer.json` and add a `--subdomain=<YOUR_SUBDOMAIN>` option to the `dev` script.
 
@@ -28,3 +28,9 @@ $ composer run dev
 
 After running these commands you should have received a message from your bot stating that your webhook has been set up correctly.
 You can now begin adding commands to your bot!
+
+## 🥨 Learn more
+
+If you'd like to see more repositories and tutorials like this,
+consider [following me on Twitter](https://twitter.com/pretzelhds)
+or [subscribing to my newsletter](https://pretzelhands.com/newsletter).
